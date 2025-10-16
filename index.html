@@ -1,0 +1,198 @@
+<!-- ↑DOCTYPE宣言と呼ばれるもので、HTMLのバージョンを宣言するためのもの-->
+<!DOCTYPE html>
+
+<!-- 日本語を使うということ -->
+<html lang="ja">
+
+<head>
+    <!-- 文字コードの設定 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- サイトタイトルの設定 -->
+    <title>ASAHI BAKERY</title>
+
+    <!-- サイトディスクリプションの設定 -->
+    <meta name="description" content="">
+
+    <!-- CSSの読み込み -->
+    <link rel="stylesheet" href="./reset.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header class="site-header">
+
+        <img src="./images/header_logo_ASAHI-BAKERY.png" alt="ヘッダー用ASAHI BAKERYロゴ">
+
+        <h1 class="logo-text"><img src="./images/ASAHI-BAKERY_text-logp.png" alt="ヘッダー用ASAHI BAKERYテキストロゴ"></h1>
+
+        <ul class="header_ul">
+            <li><a href="#CONCEPT">CONCEPT</a></li>
+            <li><a href="#MENU">MENU</a></li>
+            <li><a href="#NEWS">NEWS</a></li>
+            <li><a href="#ACCESS">ACCESS</a></li>
+        </ul>
+
+        <ul class="header_logo">
+            <li><a href=""><img src="./images/header_SNS_instagram_logo.png" alt="instagramロゴ"></a></li>
+            <li><a href=""><img src="./images/header_SNS_X_logp.png" alt="Xロゴ"></a></li>
+            <li><a href=""><img src="./images/header_SNS_facebook_logo.png" alt="facebookロゴ"></a></li>
+        </ul>
+
+    </header>
+
+    <img src="./images/mainvisual.png" alt="メインのパン写真" class="main-visual">
+
+    <div class="concept">
+        <div id="CONCEPT">
+            <h2>CONCEPT</h2>
+        </div>
+        <div class="concept-content">
+            <!-- 左：画像 -->
+            <div class="concept-image">
+                <img src="./images/CONCEPTvisual.png" alt="ASAHI BAKERYのコンセプトビジュアル">
+            </div>
+
+            <!-- 右：テキスト -->
+            <div class="concept-text">
+                <p class="title">子どもから大人まで安心して食べられるパンを</p>
+                <p>ASAHI BAKERYは毎日食べても飽きないように、<br>
+                    国産小麦や新鮮な卵など、<br>
+                    体にやさしい素材を選んで焼いています。<br>
+                    家計にもやさしい価格で、子どもから大人まで<br>
+                    笑顔になれるパンを届けたいと思っています。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div id="MENU">
+            <h2>MENU</h2>
+        </div>
+
+        <h3>ハード</h3>
+
+        <div class="menu01">
+            <div>
+                <img src="./images/hardbread-01.png" alt="ハードパン01">
+                <p>パン・ド・ロデヴ｜300円(税込)</p>
+            </div>
+            <div>
+
+                <img src="./images/hardbread-02.png" alt="ハードパン02">
+                <p>フランスパン｜400円(税込)</p>
+            </div>
+            <div>
+
+                <img src="./images/hardbread-03.png" alt="ハードパン03">
+                <p>ミニフランスパン｜200円(税込)</p>
+            </div>
+        </div>
+
+        <h3>ソフト</h3>
+
+        <div class="menu02">
+            <div>
+                <img src="./images/softbread-01.png" alt="ソフトパン01">
+                <p>食パン｜400円(税込)</p>
+            </div>
+            <div>
+                <img src="./images/softbread-02.png" alt="ソフトパン02">
+                <p>クロワッサン｜180円(税込)</p>
+            </div>
+            <div>
+                <img src="./images/softbread-03.png" alt="ソフトパン03">
+                <p>バンズ｜180円（税込）</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="news">
+        <div id="NEWS">
+            <h2>NEWS</h2>
+        </div>
+
+        <div class="about-news">
+            <div>
+                <a href="./news-donut.html"><img src="./images/newsphoto-01.png" alt="ニュース01"><br>「ドーナツ」期間限定販売</a>
+            </div>
+            <div>
+                <a href="./news-soldout.html"><img src="./images/newsphoto-02.png" alt="ニュース02"><br>本日の売切情報</a>
+            </div>
+            <div>
+                <a href="./temporary-closed.html"><img src="./images/newsphoto-03.png" alt="ニュース03"><br>臨時休業のお知らせ</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="access">
+        <div id="ACCESS">
+            <h2>ACCESS</h2>
+        </div>
+
+        <img src="./images/ACCESSvisual.png" alt="ASAHI BAKERYのアクセスビジュアル">
+
+        <div class="access-content">
+
+            <!-- 左：文字 -->
+            <div class="access-text">
+                <p>
+                    〒123-4567 <br>
+                    神奈川県川崎市〇〇123-4
+                </p>
+
+                <p>
+                    TEL　〇〇〇-〇〇〇〇<br>
+                    MAIL　info@famm.com
+                </p>
+
+                <p>
+                    営業時間/9:00〜16:00（売り切れ次第終了）<br>
+                    営業日/月・火・木・土・日
+                </p>
+                <p>武蔵小杉駅より徒歩5分</p>
+            </div>
+
+            <!-- 右：Google Map -->
+            <div class="access-img">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
+                    1d12980.285779834276!2d139.64969976511904!3d35.57662836193576!2m3!1f0!2f0!
+                    3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f57ba9099339%3A0x15149d2b7f190cda!
+                    2z44CSMjExLTAwNjMg56We5aWI5bed55yM5bed5bSO5biC5Lit5Y6f5Yy65bCP5p2J55S677yT5LiB
+                    55uuIOatpuiUteWwj-adiQ!5e0!3m2!1sja!2sjp!4v1759245366073!5m2!1sja!2sjp" width="484" height="255"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <img src="./images/footer_logo_ASAHI-BAKERY.png" alt="フッター用ASAHI BAKERYロゴ" class="footer-logo">
+
+        <ul class="footer_ul">
+            <li><a href="#CONCEPT">CONCEPT</a></li>
+            <li><a href="#MENU">MENU</a></li>
+            <li><a href="#NEWS">NEWS</a></li>
+            <li><a href="#ACCESS">ACCESS</a></li>
+        </ul>
+
+        <ul class="footer_sns-logo">
+            <li><a href=""><img src="./images/footer_SNS_instagram_logo.png" alt="instagramロゴ"></a></li>
+            <li><a href=""><img src="./images/footer_SNS_X_logp.png" alt="Xロゴ"></a></li>
+            <li><a href=""><img src="./images/footer_SNS_facebook_logo.png" alt="facebookロゴ"></a></li>
+        </ul>
+
+    </footer>
+
+    <p class="footer02">Copyright 2025 Asahi Bakery inc.</p>
+
+</body>
+
+</html>
